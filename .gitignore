@@ -1,0 +1,47 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python basics
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches & logs
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.ipynb_checkpoints/
+*.log
+
+# Streamlit
+.streamlit/
+
+# Data and generated artifacts
+# Local SQLite databases (keep ipeds_data.db)
+*.db
+!data/ipeds_data.db
+
+# Generated knowledge graph
+/data.json
+
+# Coverage
+coverage/
+.coverage*

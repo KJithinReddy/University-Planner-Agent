@@ -1,0 +1,7 @@
+streamlit
+langchain-groq
+langgraph
+python-dotenv
+beautifulsoup4
+st-link-analysis
+tavily-python
