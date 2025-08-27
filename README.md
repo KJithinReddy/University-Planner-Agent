@@ -95,7 +95,6 @@ This provides the best of both worlds - accurate structured data plus current re
 
 - **University Data**: College Scorecard API (with IPEDS fallback)
 - **Weather Data**: OpenWeather One Call API 3.0
-- **Course Information**: University website scraping (mock data)
 - **Location Data**: Geocoding services
 
 ## Knowledge Graph Export
@@ -106,11 +105,6 @@ The system automatically generates and saves a knowledge graph to `data.json` co
 - Location and weather information
 - Relationships between entities
 
-## Troubleshooting
-
-- **LLM Not Available**: If `GROQ_API_KEY` is not set, the system falls back to template-based responses
-- **Weather Data**: Ensure `OPENWEATHER_API_KEY` is set for location-based weather information
-- **IPEDS Data**: If `.accdb` files are not available, the system uses mock university data
 
 ## Current Status
 
